@@ -39,11 +39,11 @@ int main()
 
     if (fichier && fileEdited)
     {
-        //L'ouverture s'est bien passée, on peut donc lire
+        //L'ouverture s'est bien passÃ©e, on peut donc lire
 
         string ligne; //Une variable pour stocker les lignes lues
 
-        while (getline(fichier, ligne)) //Tant qu'on n'est pas à la fin, on lit
+        while (getline(fichier, ligne)) //Tant qu'on n'est pas Ã  la fin, on lit
         {
             while (ligne.find("SAP") != string::npos)
             ligne.replace(ligne.find("SAP"), 3, "Odoo");
